@@ -138,6 +138,12 @@ body {
   font-size: 5rem;
 }
 
+@media (max-width: 600px) {
+  .winning-message {
+    font-size: 3.5rem;
+  }
+}
+
 .winning-message.show {
   display: flex;
 }
